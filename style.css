@@ -1,0 +1,138 @@
+html{
+	font-family: sans-serif; 
+}
+body{
+	margin:0px;
+}
+a{
+	outline:0;
+}
+.banner{
+	width: 100%;
+	height: 75%;
+	overflow: hidden;
+	background: url(img/kayak.jpg) center no-repeat;
+	background-size: 100%;
+	background-position: 50% 30%;
+	position: relative;
+	text-align: center;
+	box-shadow: inset 0 -2px 2px -2px black;
+}
+.banner-box-container{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+.banner-text-container{
+	display: inline-block;
+	border-radius: 1em;
+	/* default fallback */
+	background: rgb(0,0,0) transparent;
+	/* nice browsers */
+	background: rgba(0,0,0, 0.4);
+	/* IE 6/7 */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+	/* IE8 */    
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+}
+.banner-text{
+	margin: 2em;
+}
+.banner-text{
+	color: white;
+}
+#banner-big{
+	font-size: 4em;
+	margin: 0em;
+}
+#banner-small{
+	font-size: 2em;
+	margin: 0em;
+	margin-top: 0.3em;
+}
+.banner img{
+	vertical-align:middle;
+}
+.button{
+	border-radius: 0.2em;
+	width: 8em;
+	height: 2.5em;
+	background-color: blue;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 1em;
+	line-height: 2.5em;
+	text-decoration: none;
+	color: white;
+}
+.banner a{
+	text-decoration: none;
+}
+.button:hover{
+	background-color: red;
+}
+.footer{
+	height: 4em;
+	background-color: gray;
+	margin: 0;
+	padding: 0em 4em;
+	color: white;
+	box-shadow: inset 0 2px 2px -2px black;
+}
+.footer p{
+	position: relative;
+	line-height: 2em;
+	top: calc(50% - 1em);
+}
+.main{
+
+}
+.container{
+	margin-left: 5%;
+	margin-right: 20%;
+	margin-top: 4em;
+	margin-bottom: 8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
