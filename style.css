@@ -81,11 +81,11 @@ a{
 	text-decoration: none;
 }
 .footer{
-	height: 4em;
+	height: 6em;
 	background-color: gray;
-	margin: 0;
-	padding: 0em 4em;
-	color: white;
+	margin: none;
+	padding: 0em 2em;
+	padding-color: gray;
 	box-shadow: inset 0 2px 2px -2px black;
 }
 .footer p{
@@ -102,7 +102,7 @@ a{
 	border-top-color: black;
 	border-bottom-color: black;
 	border-bottom-width: 1em;
-	border-top-style: solid;
+	border-bottom-style: solid;
 }
 .container{
 	background-color: #B6C8DA;
@@ -147,12 +147,10 @@ a:active{
 
 }
 
-.instagram{
+.media_bar{
 	display: inline-block;
-}
-
-.social_media_links{
 	float:right;
+	background-color: black;
 }
 
 
