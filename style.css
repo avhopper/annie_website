@@ -107,13 +107,13 @@ a{
 .container{
 	background-color: #B6C8DA;
 	margin-left: 5%;
-	margin-right: 40%;
 	margin-top: 0em;
 	margin-bottom: 0em;
+	width: 55%;
 	color: black;
 	padding: 2em;
 	border-radius: .5em;
-
+	display: inline-block;
 }
 a:link{
 	text-decoration: none;
@@ -148,7 +148,7 @@ a:active{
 }
 
 .instagram{
-	float:right;
+	display: inline-block;
 }
 
 .social_media_links{
