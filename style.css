@@ -1,5 +1,5 @@
 html{
-	font-family: sans-serif; 
+	font-family: symbol; 
 }
 body{
 	margin:0px;
@@ -10,24 +10,24 @@ a{
 }
 .banner{
 	width: 100%;
-	height: 75%;
+	height: 70%;
 	overflow: hidden;
 	background: url(img/kayak.jpg) center no-repeat;
 	background-size: 100%;
-	background-position: 50% 30%;
+	background-position: 50% 50%;
 	position: relative;
 	text-align: center;
 	box-shadow: inset 0 -2px 2px -2px black;
 }
 .banner-box-container{
 	position: absolute;
-	top: 50%;
+	top: 25%;
 	left: 0;
 	right: 0;
 }
 .banner-text-container{
 	display: inline-block;
-	border-radius: 1em;
+	border-radius: 2em;
 	/* default fallback */
 	background: rgb(0,0,0) transparent;
 	/* nice browsers */
@@ -68,12 +68,17 @@ a{
 	line-height: 2.5em;
 	text-decoration: none;
 	color: white;
+	border-style: outset;
+	border-color: blue;
 }
 .banner a{
 	text-decoration: none;
 }
 .button:hover{
 	background-color: red;
+	border-style: inset;
+	border-color: red;
+	text-decoration: none;
 }
 .footer{
 	height: 4em;
@@ -91,41 +96,64 @@ a{
 .main{
 	margin: 0;
 	padding: 0;
+	background-color: #0B243B;
+	border-top-style: solid;
+	border-top-width: 1em;
+	border-top-color: black;
+	border-bottom-color: black;
+	border-bottom-width: 1em;
+	border-top-style: solid;
 }
 .container{
-	background-color: rgb(12,4,16);
+	background-color: #B6C8DA;
 	margin-left: 5%;
 	margin-right: 40%;
-	margin-top: 4em;
-	margin-bottom: 8em;
-	color: green;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	color: black;
 	padding: 2em;
+	border-radius: .5em;
+
 }
 a:link{
 	text-decoration: none;
+	color: blue;
 }
 a:visited{
-
+	color:purple;
+	text-decoration: none
 }
 a:hover{
-
+	color: blue;
+	text-decoration: underline;
 }
 a:active{
-
+	color:red;
+	text-decoration: underline;
 }
 .pic{
-	width:7em;
-	border-style:solid;
-	border-width: 10px;
-	border-color: red;
+	width:10em;
+	border-style:double;
+	border-width: 7px;
+	border-color: #F7F8E0;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 }
 
+#about_me_pic{
+	float:right;
+	margin: 1em;
 
+}
 
+.instagram{
+	float:right;
+}
 
+.social_media_links{
+	float:right;
+}
 
 
 
