@@ -147,9 +147,8 @@ a:active{
 
 }
 
-.media_bar{
+#media_bar{
 	display: inline-block;
-	float:right;
 	background-color: black;
 }
 
