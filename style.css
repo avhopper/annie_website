@@ -164,12 +164,23 @@ a:active{
 	margin-top: 1em;
 	margin-bottom: 2em;
 	margin-left: .5em;
-	margin-right:.5em;
+	margin-right: .5em;
 }
 
 .nav_bar{
-	background-color: gray;
+	float: right;
+	background-color: #0B243B;
+}
 
+.navbar-link{
+	border: 4px 4px 0px 4px black;
+	padding: 0.5em;
+	margin: none;
+	list-style-type: none;
+	display: inline;
+}
+#navbar-bottom{
+	border-bottom: 1px black;
 }
 
 
