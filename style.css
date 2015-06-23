@@ -172,6 +172,10 @@ a:active{
 	background-color: #0B243B;
 }
 
+.map img{
+	width: 20em;
+}
+
 .navbar-link{
 	border: 4px 4px 0px 4px black;
 	padding: 0.5em;
