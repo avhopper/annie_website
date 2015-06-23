@@ -168,8 +168,13 @@ a:active{
 }
 
 .nav_bar{
-	float: right;
+	float: left;
 	background-color: #0B243B;
+	font: helvetica;
+	color: white;
+	border-width: 3em;
+	margin-top: 7em;
+	margin-left: 7em;
 }
 
 .map img{
