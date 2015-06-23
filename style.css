@@ -107,7 +107,7 @@ a{
 }
 .container{
 	background-color: #B6C8DA;
-	margin-left: 5%;
+	margin-left: 3%;
 	margin-top: 0em;
 	margin-bottom: 0em;
 	overflow: auto;
@@ -160,7 +160,7 @@ a:active{
 	margin-top: 2em;
 	margin-bottom: 3em;
 	margin-left: .5em;
-	margin-right:.5em;
+	margin-right:2em;
 }
 
 .badges{
@@ -184,13 +184,14 @@ a:active{
 }
 
 .navbar-link{
-	border-style: solid;
-	border-color: white;
-	border-width: 1px 1px 0px 1px;
+	border-style: inset;
+	border-color: #B6C8DA;
+	border-width: 2px 2px 0px 2px;
 	margin: none;
 	list-style-type: none;
 	display: inline-block;
 	width: 100%;
+	background-color: #0B243B;
 }
 .navbar-button{
 	padding: 0.5em;
