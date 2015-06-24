@@ -104,19 +104,19 @@ a{
 	border-bottom-width: 1em;
 	border-bottom-style: solid;
 	overflow: hidden;
+	display: table;
+	width: 100%;
 }
 .container{
+	margin-left: 2em;
+}
+.container-inner{
 	background-color: #B6C8DA;
-	margin-left: 3%;
-	margin-top: 0em;
-	margin-bottom: 0em;
-	overflow: auto;
 	color: black;
-	padding: 2em;
+	padding: 1em 2em;
 	border-radius: .5em;
-	width: 65%;
-	display: inline-block;
-
+	overflow: hidden;
+	display: table-cell;
 }
 a:link{
 	text-decoration: none;
@@ -151,23 +151,39 @@ a:active{
 }
 
 #media_bar{
+	color: white;
+	display: table-cell;
+	width: 25%;
+	padding: 0;
+	position: relative;
+}
+
+.media_bar_inner{
 	background-color: black;
-	width: 20%;
-	float: right;
+	margin-right: 2em;
+	margin-left: 1em;
+	border-radius: 0.5em;
+	padding: 1em 0.5em;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 
 .instagram{
-	margin-top: 2em;
-	margin-bottom: 3em;
-	margin-left: .5em;
-	margin-right:2em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	height: 300px;
+}
+
+.snapwidget-widget{
+	width: 100%;
+	overflow: hidden;
+	display: inline-block;
+	height: 300px;
 }
 
 .badges{
-	margin-top: 1em;
-	margin-bottom: 1em;
-	margin-left: .5em;
-	margin-right: .5em;
+
 }
 
 .nav_bar{
@@ -177,10 +193,14 @@ a:active{
 	border-width: 3em;
 	width: auto;
 	padding: 0;
+	margin-right: 0.25em;
 }
 
+.map{
+
+}
 .map img{
-	width: 20em;
+	width: 100%;
 }
 
 .navbar-link{
@@ -197,7 +217,7 @@ a:active{
 	padding: 0.5em;
 }
 #navbar-bottom{
-	border-width: 1px;
+	border-width: 2px;
 }
 
 
