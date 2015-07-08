@@ -7,10 +7,11 @@ body{
 }
 a{
 	outline:0;
+	text-decoration: none;
+	color: inherit;
 }
 .banner{
 	width: 100%;
-	height: 70%;
 	overflow: hidden;
 	background: url(img/kayak.jpg) center no-repeat;
 	background-size: 100%;
@@ -18,6 +19,12 @@ a{
 	position: relative;
 	text-align: center;
 	box-shadow: inset 0 -2px 2px -2px black;
+}
+#banner-small.banner{
+	height: 20%;
+}
+#banner-large.banner{
+	height: 70%
 }
 .banner-box-container{
 	position: absolute;
@@ -108,7 +115,8 @@ a{
 	width: 100%;
 }
 .container{
-	margin-left: 2em;
+	display: table-cell;
+	padding-left: 2em;
 }
 .container-inner{
 	background-color: #B6C8DA;
@@ -116,26 +124,26 @@ a{
 	padding: 1em 2em;
 	border-radius: .5em;
 	overflow: hidden;
-	display: table-cell;
 }
-a:link{
+.container-inner a:link{
 	text-decoration: none;
-	color: blue;
+	color: #000087;
 }
-a:visited{
-	color:purple;
+.container-inner a:visited{
+	color: purple;
 	text-decoration: none
 }
-a:hover{
-	color: blue;
+.container-inner a:hover{
 	text-decoration: underline;
 }
-a:active{
-	color:red;
+.container-inner a:active{
+	color: red;
 	text-decoration: underline;
+}
+h4{
+	margin: 1em 0 0.5em 0;
 }
 .pic{
-	width:10em;
 	border-style:double;
 	border-width: 7px;
 	border-color: #F7F8E0;
@@ -147,7 +155,7 @@ a:active{
 #about_me_pic{
 	float:right;
 	margin: 1em;
-
+	width:10em;
 }
 
 #media_bar{
@@ -155,7 +163,6 @@ a:active{
 	display: table-cell;
 	width: 25%;
 	padding: 0;
-	position: relative;
 }
 
 .media_bar_inner{
@@ -164,7 +171,6 @@ a:active{
 	margin-left: 1em;
 	border-radius: 0.5em;
 	padding: 1em 0.5em;
-	position: absolute;
 	top: 0px;
 	left: 0px;
 }
@@ -184,6 +190,10 @@ a:active{
 
 .badges{
 
+}
+
+#badges-header{
+	margin-bottom: 0.3em;
 }
 
 .nav_bar{
