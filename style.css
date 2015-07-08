@@ -212,7 +212,15 @@ a:active{
 	display: inline-block;
 	width: 100%;
 	background-color: #0B243B;
+	font-size: 20;
+	font-style: bold;
 }
+
+.navbar-link:hover{
+	text-decoration: underline;
+	color: white;
+	}
+
 .navbar-button{
 	padding: 0.5em;
 }
