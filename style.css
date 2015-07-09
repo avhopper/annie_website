@@ -4,7 +4,7 @@ html{
 body{
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	min-width: 750px;
 }
 a{
 	outline:0;
@@ -20,6 +20,11 @@ a{
 	position: relative;
 	text-align: center;
 	box-shadow: inset 0 -2px 2px -2px black;
+	color: white;
+}
+.banner h1{
+	text-align: left;
+	margin-left: 1em;
 }
 #banner-small.banner{
 	height: 20%;
@@ -98,7 +103,6 @@ a{
 	padding-color: gray;
 	box-shadow: inset 0 2px 2px -2px black;
 	display: block;
-	width: 100%;
 }
 .footer p{
 	line-height: 2em;
@@ -106,26 +110,31 @@ a{
 .main{
 	margin: 0;
 	background-color: #0B243B;
-	overflow: hidden;
-	width: 100%;
-	display: table;
-	border-spacing: 1em;
+	overflow: auto;
 }
 #media_bar{
 	color: white;
-	display: table-cell;
-	width: 25%;
-	min-width: 250px;
+	width: 16em;
+	margin: 1em;
 	background-color: black;
 	border-radius: 0.5em;
+	float: left;
+	padding: 1em;
 }
 .container{
-	display: table-cell;
-	min-width: 500px;
+	width: 100%;
+	float: left;
+	margin-right: -20em;
+}
+.container-inner{
+	margin-right: 20em;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	background-color: #B6C8DA;
-	color: black;
 	padding: 1em 2em;
 	border-radius: .5em;
+	color: black;
 	overflow: hidden;
 }
 .container-inner a:link{
