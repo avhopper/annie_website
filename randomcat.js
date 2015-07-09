@@ -7,6 +7,9 @@ cats[4] = 'cats/4.jpg';
 cats[5] = 'cats/5.jpg';
 cats[6] = 'cats/6.jpg';
 
-var selectedCat = cats[Math.floor(Math.random()*cats.length)];
+var selectedCat = undefined;
+while (selectedCat == undefined){
+	selectedCat = cats[Math.floor(Math.random()*cats.length)];
+}
 
 document.write('<img src="'+selectedCat+'" class="pic">');
