@@ -1,8 +1,9 @@
 html{
-	font-family: symbol; 
+	font-family: "Asap", sans-serif; 
 }
 body{
-	margin:0px;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
 a{
@@ -22,6 +23,8 @@ a{
 }
 #banner-small.banner{
 	height: 20%;
+	background-position: 50% 30%;
+	margin: 0;
 }
 #banner-large.banner{
 	height: 70%
@@ -88,37 +91,37 @@ a{
 	text-decoration: none;
 }
 .footer{
-	height: 6em;
+	height: 4em;
 	background-color: gray;
 	margin: 0;
 	padding: 0em 2em;
 	padding-color: gray;
 	box-shadow: inset 0 2px 2px -2px black;
+	display: block;
+	width: 100%;
 }
 .footer p{
-	position: relative;
 	line-height: 2em;
-	top: calc(50% - 1em);
 }
 .main{
 	margin: 0;
-	padding: 1em 0 1em 0;
 	background-color: #0B243B;
-	border-top-style: solid;
-	border-top-width: 1em;
-	border-top-color: black;
-	border-bottom-color: black;
-	border-bottom-width: 1em;
-	border-bottom-style: solid;
 	overflow: hidden;
-	display: table;
 	width: 100%;
+	display: table;
+	border-spacing: 1em;
+}
+#media_bar{
+	color: white;
+	display: table-cell;
+	width: 25%;
+	min-width: 250px;
+	background-color: black;
+	border-radius: 0.5em;
 }
 .container{
 	display: table-cell;
-	padding-left: 2em;
-}
-.container-inner{
+	min-width: 500px;
 	background-color: #B6C8DA;
 	color: black;
 	padding: 1em 2em;
@@ -143,6 +146,7 @@ a{
 h4{
 	margin: 1em 0 0.5em 0;
 }
+
 .pic{
 	border-style:double;
 	border-width: 7px;
@@ -158,26 +162,9 @@ h4{
 	width:10em;
 }
 
-#media_bar{
-	color: white;
-	display: table-cell;
-	width: 25%;
-	padding: 0;
-}
-
-.media_bar_inner{
-	background-color: black;
-	margin-right: 2em;
-	margin-left: 1em;
-	border-radius: 0.5em;
-	padding: 1em 0.5em;
-	top: 0px;
-	left: 0px;
-}
-
 .instagram{
-	margin-top: 1em;
-	margin-bottom: 2em;
+	margin-top: 3em;
+	margin-bottom: 3em;
 	height: 300px;
 }
 
@@ -193,17 +180,17 @@ h4{
 }
 
 #badges-header{
-	margin-bottom: 0.3em;
+	margin-bottom: 0.5em;
 }
 
 .nav_bar{
 	background-color: #0B243B;
-	font: helvetica;
 	color: white;
 	border-width: 3em;
 	width: auto;
 	padding: 0;
 	margin-right: 0.25em;
+	margin-top: 2em;
 }
 
 .map{
