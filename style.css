@@ -97,20 +97,24 @@ a{
 }
 .footer{
 	height: 4em;
-	background-color: gray;
+	background-color: #E6E6E6;
 	margin: 0;
-	padding: 0em 2em;
+	padding: 0.1em 2em 0 2em;
 	padding-color: gray;
 	box-shadow: inset 0 2px 2px -2px black;
 	display: block;
+	margin: -1em 0 0em 0;
 }
 .footer p{
 	line-height: 2em;
+	color: #5C5C5C;
+	font-weight: lighter;
 }
 .main{
 	margin: 0;
 	background-color: #0B243B;
 	overflow: auto;
+	padding-bottom: 1em;
 }
 #media_bar{
 	color: white;
