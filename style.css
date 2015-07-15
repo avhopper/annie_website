@@ -167,8 +167,8 @@ a{
 }
 
 .pic{
-	border-style:double;
-	border-width: 7px;
+	border-style:solid;
+	border-width: 4px;
 	border-color: #F7F8E0;
 	margin-left: auto;
 	margin-right: auto;
@@ -245,16 +245,81 @@ a{
 }
 
 
+.logo1{
+	display: inline;
+	float:right;
+	width: 1.6em;
+	height: 2.2em;
+	margin-right: .5em;
+	margin-left: .5em;
 
 
+}
+
+.logo2{
+	display: inline;
+	float:right;
+	width: 2.2em;
+	height: 2.2em;
+	margin-right: .7em;
+	margin-left: .5em;
+}
+
+.logo3{
+	display: inline;
+	float: right;
+	width: 5.5em;
+	height: 2em;
+}
+
+.logo4{
+	display: inline;
+	float: right;
+	width: 6em;
+	height: 2em;
+}
+
+.logo5{
+	display: inline;
+	float: right;
+	width: 6em;
+	height: 2em;
+}
+
+.logo6{
+	display: inline;
+	float: right;
+	width: 2em;
+	height: 2em;
+}
+
+.logo7{
+	display: inline;
+	float: right;
+	width: 2em;
+	height: 2em;
+}
+
+.logo8{
+	display: inline;
+	float: right;
+	width: 3em;
+	height: 2em;
+}
 
 
-
-
-
-
-
-
+.chick{
+display: block;
+	float: right;
+	width: 11.5em;
+	height: 10em;	
+	border-style:solid;
+	border-width: 4px;
+	border-color: #F7F8E0;
+	position: relative;
+	top: 2em;
+	right: 1em;
+}
 
 
 
